@@ -16,7 +16,8 @@ st.set_page_config(layout="wide")
 
 hide_streamlit_style = """
             <style>
-            footer {visibility: hidden;}
+            footer {visibility: visible;}
+            footer:after {content: '© 2022, Nimish Chauhan'; display: block; position: relative; color: indianred;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
