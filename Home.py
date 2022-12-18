@@ -55,12 +55,10 @@ add_bg_from_url()
 a, b = st.columns([1, 20])
 
 with a:
+    st.text("")
     st.image("icons8-twitter-48.png", width=50)
 with b:
     st.title("Qatar World Cup 2022")
-
-#st.image("icons8-twitter.svg")
-#st.write("# ⚽️ Qatar World Cup 2022")
 
 st.markdown("""
             ## Twitter Analysis
