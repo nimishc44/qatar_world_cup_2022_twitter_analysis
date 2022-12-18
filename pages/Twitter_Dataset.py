@@ -20,7 +20,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.header('Raw Twitter Data')
 st.sidebar.success("This section helps you to scrub through the raw twitter dataset used in this analysis.")
 
-DATA_URL = ('/Users/nimish/Documents/Important Documents/UBC - MM/Subjects/Period 2/BA 515 Fundamentals of Analysis and Tech/Streamlit Project/worldcup_tweets.csv')
+DATA_URL = ('./worldcup_tweets.csv')
 @st.cache
 def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows, index_col=0)
