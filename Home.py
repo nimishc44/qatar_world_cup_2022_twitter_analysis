@@ -9,6 +9,8 @@ from collections import Counter
 from textblob import TextBlob
 from statistics import mean
 from st_pages import Page, show_pages, add_page_title
+nltk.download('punkt')
+nltk.download('stopwords')
 
 st.set_page_config(layout="wide")
 
