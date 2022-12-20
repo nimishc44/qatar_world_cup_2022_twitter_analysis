@@ -36,27 +36,28 @@ show_pages(
 
 st.sidebar.success("Select from the options above")
 
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://assets.foxdcg.com/dpp-uploaded/images/fifa-world-cup-team-previews/chip_soccer_fifa_world_cup_qatar_team_previews_2022-keyart.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
+#def add_bg_from_url():
+#    st.markdown(
+#         f"""
+#         <style>
+#         .stApp {{
+#             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://assets.foxdcg.com/dpp-uploaded/images/fifa-world-cup-team-previews/chip_soccer_fifa_world_cup_qatar_team_previews_2022-keyart.jpg");
+#             background-attachment: fixed;
+#             background-size: cover
+#         }}
+#         </style>
+#         """,
+#         unsafe_allow_html=True
+#     )
 
-add_bg_from_url()
+#add_bg_from_url()
 
 a, b = st.columns([1, 20])
 
 with a:
     st.text("")
-    st.image("icons8-twitter-48.png", width=50)
+    st.text("")
+    st.image("logo-blue.png", use_column_width="auto")
 with b:
     st.title("Qatar World Cup 2022")
 
@@ -69,9 +70,9 @@ st.markdown("""
             """)
 
 st.markdown("""
-    **👈 Select a demo from the sidebar** to see some analysis!
+    **👈  Select a demo from the sidebar** to see some analysis!
     ### Following are some of the challenges that this project tackles:
-    - Efficiently scrubbing through the raw twitter dataset.
+    - Efficiently scrubbing throught the raw twitter dataset.
     - Popularity analysis of the most common words, popular tweets, retweets and influential users.
     - Creating a **Word Cloud** out of the most popular and frequently occuring words.
     - Sentiment analysis by evaluating the polarity and the subjetivity scores.
