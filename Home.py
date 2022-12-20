@@ -36,22 +36,6 @@ show_pages(
 
 st.sidebar.success("Select from the options above")
 
-#def add_bg_from_url():
-#    st.markdown(
-#         f"""
-#         <style>
-#         .stApp {{
-#             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://assets.foxdcg.com/dpp-uploaded/images/fifa-world-cup-team-previews/chip_soccer_fifa_world_cup_qatar_team_previews_2022-keyart.jpg");
-#             background-attachment: fixed;
-#             background-size: cover
-#         }}
-#         </style>
-#         """,
-#         unsafe_allow_html=True
-#     )
-
-#add_bg_from_url()
-
 a, b = st.columns([1, 20])
 
 with a:
