@@ -58,6 +58,6 @@ st.markdown("""
     ### Following are some of the challenges that this project tackles:
     - Efficiently scrubbing throught the raw twitter dataset.
     - Popularity analysis of the most common words, popular tweets, retweets and influential users.
-    - Creating a **Word Cloud** out of the most popular and frequently occuring words.
-    - Sentiment analysis by evaluating the polarity and the subjetivity scores.
+    - Creating a **Word Cloud** out of the most popular and frequently occurring words.
+    - Sentiment analysis by evaluating the polarity and the subjectivity scores.
 """)
